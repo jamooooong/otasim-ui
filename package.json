@@ -8,7 +8,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "rollup": "rollup -c",
-    "build:css": "tailwindcss build src/tailwind.css -o dist/otasim-css.css --minify"
+    "build:css": "tailwindcss build src/tailwind.css -o dist/otasim-css.css --minify",
+    "chromatic": "npx chromatic --project-token=chpt_4b7cfbf0afb005a"
   },
   "exports": {
     ".": {
@@ -37,6 +38,7 @@
     "@types/react": "^19.0.7",
     "@types/react-dom": "^19.0.3",
     "autoprefixer": "^10.4.20",
+    "chromatic": "^11.24.0",
     "eslint": "^9.18.0",
     "eslint-plugin-storybook": "^0.11.2",
     "postcss": "^8.5.1",

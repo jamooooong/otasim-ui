@@ -1,5 +1,6 @@
 :root {
-  --primary: rgb(189, 40, 189);
+  --primary: rgb(55, 39, 95);
+  --secondary: rgb(186, 41, 42);
 }
 
 @tailwind base;
