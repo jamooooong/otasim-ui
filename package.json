@@ -9,7 +9,8 @@
     "build-storybook": "storybook build",
     "rollup": "rollup -c",
     "build:css": "tailwindcss build src/tailwind.css -o dist/otasim-css.css --minify",
-    "chromatic": "npx chromatic --project-token=chpt_4b7cfbf0afb005a"
+    "chromatic": "npx chromatic --project-token=chpt_4b7cfbf0afb005a",
+    "build": "pnpm run rollup & pnpm run build:css"
   },
   "exports": {
     ".": {
